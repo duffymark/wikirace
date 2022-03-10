@@ -163,6 +163,20 @@ main{
     padding-bottom: 5%;
 }
 
+/* rules */
+
+.rules li{
+    line-height: 3rem;
+}
+
+.rulesLink{
+    padding-top: 1rem;
+}
+
+.wikiRulesLink{
+    text-decoration: underline;
+    color: whitesmoke;
+}
 
 /* footer */
 

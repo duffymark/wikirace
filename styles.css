@@ -183,6 +183,7 @@ footer p{
     padding: 2%;
     /* background-size: cover;  */
     overflow: hidden;
+     margin: 0 auto -50px;
 }
 
 /* stopwatch */

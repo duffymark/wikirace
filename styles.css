@@ -189,6 +189,7 @@ footer p{
 }
 
 /* stopwatch */
+/* tutorial used from https://dev.to/gspteck/create-a-stopwatch-in-javascript-2mak */
 
 body {
     background: #202020;
@@ -218,14 +219,7 @@ button {
     /* padding: 10px;  */
 }
 
-/* leaderboard */
-#comment-box, #post {
-    border: none;
-    border-radius: 5px;
-}
-#post:hover{
-    background-color: deeppink;
-}
+
 
 /* media queries */
 

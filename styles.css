@@ -223,3 +223,20 @@ button {
 #post:hover{
     background-color: deeppink;
 }
+
+/* media queries */
+
+@media (max-width: 1100px) {
+    .flexContainer{
+        flex-direction: column;
+    }
+    #buttons{
+    display: flex;
+    justify-content: center;
+    }
+    .timer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+}

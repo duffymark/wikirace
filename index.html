@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Race</title>
+    <link rel="icon" src="./1200px-Wikipedia_logo_(svg).svg.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class='wrapper'>
+            <ul class="navLinks">
+                <li><a href="./rules.html">How Do I Play?</a></li>
+                <li><a href="https://www.markduffy.ca" target="_blank">Who Built This?</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+    <div class="wrapper">
+        <h1>Wiki Race</h1>
+    <div class="flexContainer">
+        <div class="pointsDiv">
+        <div class="start">
+            <h2 class="startMessage">Start Point: <span class= 'startPoint'></span></h2>
+            <h3 class="startLink"><a class='wikiStartLink' href="#" id='testLink2' target="_blank"></a></h3>
+            <button class="buttonOne">Randomize</button>
+        </div>
+
+        <div class="finish">
+            <h2 class="finishMessage">End Point: <span class='endPoint'></span></h2>
+            <h3 class="endLink"><a href="#" class='wikiEndLink' id="testLink" target="_blank"></a></h3>
+            <button class="buttonTwo">Randomize</button>
+        </div> 
+         </div><!-- end of start/end div   -->
+    <div class="timer">
+        <div >
+            <p id="stopwatch">00:00:00</p>
+        </div>
+        
+        <ul id="buttons">
+            <li><button class="watchBtn" onclick="startTimer()">Start</button></li>
+            <li><button onclick="stopTimer()" class="watchBtn">Stop</button></li>
+        
+            <li><button class="watchBtn" onclick="resetTimer()">Reset</button></li>
+        </ul>
+    </div> <!-- end of timer -->
+    </div><!-- end of start/end watch div -->
+      </div><!-- end of wrapper -->
+    </main>
+
+<footer>
+    <div class="footer">
+        <div class="wrapper">
+            <p>Created by <a href="https://github.com/duffymark" target="blank" aria-label="Go to Mark Duffy's Github">Mark Duffy</a> © 2022 </p>
+        </div>
+    </div>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
